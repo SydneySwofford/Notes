@@ -1,0 +1,186 @@
+	• C++ can use oop and non-object oriented programing
+
+	• C++-----> C with classes 
+
+	• Source code--> code we write…higher level than computer
+	Editors are used to enter the program into.
+
+	• Source code is translated in to object code by the compiler for the computer to read.
+	• "linker" links other object code to your program
+	
+	
+	
+	Structure of C++ Program 
+	• Key Words
+	
+	• Preprocessor directives 
+	Are executed first by the compiler. C++ pre-processor does not understand C++
+	• Main Function
+	Return 0 signifies a successful program execution ( return true) 
+	2 different main types 
+	int main()		int main(int argc, char *argv[])
+	• Namespaces 
+	Used to define a set of identifiers in a given space to reduce naming conflicts
+	Add using namespace std; to top to reduce unnecessary typing. (can be isssueous for larger projects…can declare certain parts of namespace you want to include)
+	• Basic I/O
+	Cout--> output stream that outputs to the console
+	Cin--> input stream that takes input from keyboard
+	<< insertion operator, output stream
+	>> extraction operator, input stream
+	
+	*Object oriented programming allows you to create your own type of variable.
+	Account franks_account; ---> variable type is account
+	Person james; ----? Variable type is person
+	
+	C++ IS CASE SENSITIVE! 
+	
+	Declare variables close to when you need them in your code, not all at the top!
+	
+	Global Variables
+	- Declared outside of the main function. Can have variables declared locally and globally. Not good practice to only use global variables 
+	
+Primitive Data Types 
+Integer 
+Float--> non integer numbers, exponent 
+	- Double-->> different storage amount 
+	- Long double--> larger storage amount 
+Boolean--> used to represent true and false. Zero is FALSE non-zero is TRUE 
+Character --> used to represent characters or strings. Use the ' for single characters. Use " for strings. String literals 
+
+Signed vs Unsigned??
+-using short and long to reduce compile/processing time? 
+
+Use list initialization to avoid errors while compiling 
+
+Size Of operator
+Determines size in bytes of a type or variable 
+<climits> <cfloat> need to be included to use this type of operator
+
+Constant vs. Variable
+	- Constants cannot change but variables can 
+	For things you know you don’t want to change. 
+	Declare constants by using const.
+	You can declare constants by hard declaring them using an =
+	You can also declare constants by using the #Define preprocessor directive
+	#define pi
+	
+Arrays 
+	- All elements of an array must be of the same type 
+	- Array sizes are fixed 
+	- Can access each array element using position or Array index 
+	- Index's start at Zero! 
+	- Last element is (size-1)
+	- To access individual array elements just type the element you want in square brackets
+Vectors
+	- Can grow and change at runtime, but are similar to arrays in terms of syntax 
+	- To use vectors use #include <vector> in your code 
+	- To declare vector <char> vowel;
+			vector <int> test_scores;
+	- Can access vector elements the same way as you do with arrays 
+	- Can also access vector elements using the vector syntax
+		○ Vector_name.at(element_index)--->  test_scores.at(1) <----This is object oriented programming syntax 
+	- Using the vector element .Push_Back  you can add elements to the end of a vector….thus changing the size 
+	- Can use exception handling with vectors…will note later 
+	
+Statements /Expressions
+	- Mathematical, relational, logical, member access, increment/decrement, assignment 
+	- Statement is a line of code that preforms some action…statements usually contain expressions
+	- ++/-- increment and decrement….typically used in loops…don’t increment the same variable more than once in a single line 
+	
+Type Conversion
+-lower vs higher type 
+---> converting low to high is easy, high to low you will lose precision
+	- Use static_cast<type> to convert to a specific type during operation with different types 
+  	This will allow you to keep the precision of certain values 
+
+Testing for Equality 
+	- Using expressions == != 
+	- Add std::boolAlpha to see zeros and ones in terms of true and false ( should already be in the std namespace
+	- Logical operators not(!) and (&&) or(||) 
+	- Compound assignment operators are += *= /= …. Assumer right hand side is in parenthesis and then perform the left hand side on that side and restore back into the left hand side. 
+	- associativity….just use parenthesis 
+	
+Controlling Program Flow
+	- Sequence
+	- Selection
+	Decision making if statements, switch statements, conditional operators 
+	- Iteration
+	Looping using for loop, while loop, do-while, nested loops, infinite lops 
+If the value of the IF statement is false it is skipped. 
+Block statement….a function inside main….that has its own set of variables that are only seen inside the bloclk
+NESTED IF STATEMENTS 
+Dangling else problem….else belongs to the closest if 
+Switch statement: Switch case break
+Switch keyword (control expression) 
+Case statements…
+Default statement executes if no case statements are true 
+Must have break statement after each case 
+Once you hit a match…all code will be executed until you hit a break!
+	If you don’t use breaks on every case it's called having a fall through switch statement
+Conditional operator uses ?(yes) And :(no)      --> essentially an if else expression in one package 
+
+Looping
+-iteration or repetition. 
+Can loop for a specific number of times or until a certain condition is true. 
+
+For loop: iterates a specific number of times 
+Range-based for loop: one iteration for each element in a range or collection 
+While loop: iterate while a condition remains true, stop when condition becomes false, checks condition at the BEGINNING of every iteration.
+Do-while loop: iteration while condition remains true, stop when condition becomes false, checks condition at END of every iteration
+
+*looping within arrays always use less than the size of the array
+A loop with (;;) nothing in the expression will be an endless loop..not typically good practice 
+Don’t have to force your way into the DO while loop, will execute at least once because it checks the condition at the bottom 
+
+Continue and Break Statements 
+Continue: 
+	- no further statements in the body of the loop are executed
+	- Control immediately goes directly to the beginning of the loop for the next iteration
+Break:
+	- No further statements in the loop are executed 
+	- Loop is immediately terminated 
+	- Control immediately goes to the statement following the loop construct.
+
+Infinite Loops will always evaluate to true 
+
+Character Types and Strings 
+
+C-style strings vs. C++ style strings 
+
+*C-character functions  
+Isalpha(b)	True if b is a letter
+Isalnum(b)	True if b is a letter or digit
+Isdigit(b)	True if B is a digit
+Islower(b)	True if b lowercase letter
+Isprint(b)	True if b is printable character
+Ispunct(b)	True if b is a punctuation character 
+Isupper(b)	True if B is an uppercase letter 
+Isspace(b)	True if b is whitespace 
+
+C-style strings are implemented as an array of characters. Often referred to as zero or null style strings 
+They end with a null or a zero.
+	- C Strings have a hard set size when you create them 
+	- Cin stops once it sees whitespace…use cin.getline to get entire line including white space 
+Use size_t for array looping and indexing 
+To use C++ strings you must include the header #include<string> 
+C++ strings are dynamic and can grow in size 
+C++ strings are usually better 
+	- To concatenate C++ strings you can use "+" 
+	- Can use strings in a similar way to vectors 
+	
+Substring Method
+	- Takes the substring of a string--> object.substr(start_index, length)….allows you to parse a string and only take what you want. 
+Find Method
+	- Object.find(search_string)--> will return the index of what you are looking for in the string
+	- CAPITOL LETTERS COME BEFORE LOWER CASE IN ASCI
+	- .length returns the number of places in a string 
+
+Escape Codes 
+
+/n newline 
+/r return
+/t tab
+/b backspace
+/' single quote
+/" double quote
+// backslash 
