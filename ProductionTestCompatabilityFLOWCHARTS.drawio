@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T18:54:18.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="t-IXgsGgdSULks2uP4pb" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T18:55:57.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="JI-erIiTzBGY6N9uHc6Y" version="17.1.2" type="github" pages="2">
   <diagram id="LXt_6ldumjAD1ES0BPMl" name="ConnectionTest">
     <mxGraphModel dx="1759" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="meIuWX5t1aGWm9yRR88u" name="Page-2">
+  <diagram id="meIuWX5t1aGWm9yRR88u" name="DataCollectionTest">
     <mxGraphModel dx="909" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="a9GmgResV2FdEJpwr11O-0" />
