@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T18:04:54.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="6uc0zhrWMFAGY7NIqS5-" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-15T18:10:50.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="zwoOfFX3grN4VHkIVKg6" version="17.1.2" type="github" pages="2">
   <diagram id="LXt_6ldumjAD1ES0BPMl" name="ConnectionTest">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -134,14 +134,26 @@
         <mxCell id="fDx1xfOl-T-hpd7fHFV0-1" value="Declare Variables" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
           <mxGeometry x="385" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jesvQnmLpM0ffbUBb8M1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9GmgResV2FdEJpwr11O-1" source="jesvQnmLpM0ffbUBb8M1-0" target="jesvQnmLpM0ffbUBb8M1-2">
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9GmgResV2FdEJpwr11O-1" source="jesvQnmLpM0ffbUBb8M1-0" target="JJjAjfJoS3GCq91DXHsW-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jesvQnmLpM0ffbUBb8M1-0" value="Initialize N-Unit Test Properties" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
           <mxGeometry x="385" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jesvQnmLpM0ffbUBb8M1-2" value="" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
-          <mxGeometry x="385" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-4" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9GmgResV2FdEJpwr11O-1" source="JJjAjfJoS3GCq91DXHsW-1" target="JJjAjfJoS3GCq91DXHsW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-6" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a9GmgResV2FdEJpwr11O-1" source="JJjAjfJoS3GCq91DXHsW-1" target="JJjAjfJoS3GCq91DXHsW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-1" value="Try Connection" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
+          <mxGeometry x="392.5" y="690" width="105" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-3" value="" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
+          <mxGeometry x="187.5" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJjAjfJoS3GCq91DXHsW-5" value="" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="a9GmgResV2FdEJpwr11O-1">
+          <mxGeometry x="557.5" y="705" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
